@@ -21,7 +21,7 @@ export const products: Product[] = [
     name: 'Breeze Shorts',
     price: 3900,
     currency: 'usd',
-    image: '/images/sunset-tank.svg',
+    image: '/images/breeze-shorts.svg',
     description: 'Comfortable summer shorts.'
   },
   {
@@ -29,7 +29,47 @@ export const products: Product[] = [
     name: 'Coast Dress',
     price: 6900,
     currency: 'usd',
-    image: '/images/sunset-tank.svg',
+    image: '/images/coast-dress.svg',
     description: 'A breezy dress for evenings by the water.'
+  },
+  {
+    id: 'female-dress',
+    name: 'Aster Dress (Women)',
+    price: 7900,
+    currency: 'usd',
+    image: '/images/female-dress.svg',
+    description: 'Light, airy summer dress in breathable linen.'
+  },
+  {
+    id: 'male-tee',
+    name: 'Harbor Tee (Men)',
+    price: 3500,
+    currency: 'usd',
+    image: '/images/male-tee.svg',
+    description: 'Soft cotton tee with a relaxed fit.'
+  },
+  {
+    id: 'kids-onesie',
+    name: 'Sprout Onesie (Kids)',
+    price: 2400,
+    currency: 'usd',
+    image: '/images/kids-onesie.svg',
+    description: 'Playful onesie with easy snaps for quick changes.'
+  },
+  {
+    id: 'baby-romper',
+    name: 'Pebble Romper (Baby)',
+    price: 2700,
+    currency: 'usd',
+    image: '/images/baby-romper.svg',
+    description: 'Soft romper made for newborn comfort.'
+  },
+  {
+    id: 'beach-bag',
+    name: 'Shore Bag & Accessories',
+    price: 4500,
+    currency: 'usd',
+    image: '/images/bag-accessories.svg',
+    description: 'Spacious beach bag with matching straw hat.'
   }
 ];

@@ -1,0 +1,10 @@
+<!-- Male clothing placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Male clothing">
+  <rect width="100%" height="100%" fill="#F8F9FB"/>
+  <g transform="translate(60,40)">
+    <rect x="140" y="120" width="420" height="420" rx="40" fill="#fff" stroke="#213547" stroke-width="10"/>
+    <path d="M140 220 Q 300 120 540 220" stroke="#213547" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="480" cy="320" r="26" fill="#FFD166"/>
+    <text x="80" y="680" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto" font-size="36" fill="#213547" font-weight="700">Male — Tee</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<!-- Kids clothing placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Kids clothing">
+  <rect width="100%" height="100%" fill="#FFFBF0"/>
+  <g transform="translate(80,40)">
+    <rect x="140" y="140" width="320" height="320" rx="30" fill="#fff" stroke="#213547" stroke-width="8"/>
+    <circle cx="260" cy="240" r="22" fill="#FFD166"/>
+    <path d="M160 360 Q 260 420 420 360" stroke="#118AB2" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <text x="60" y="680" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto" font-size="36" fill="#213547" font-weight="700">Kids — Onesie</text>
+  </g>
+</svg>

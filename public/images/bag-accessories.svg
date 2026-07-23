@@ -1,0 +1,10 @@
+<!-- Bag and accessories placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Bag and accessories">
+  <rect width="100%" height="100%" fill="#F7F9FA"/>
+  <g transform="translate(80,40)">
+    <rect x="160" y="180" width="360" height="260" rx="28" fill="#fff" stroke="#213547" stroke-width="10"/>
+    <path d="M240 160 Q 320 100 480 160" stroke="#213547" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="320" cy="260" r="30" fill="#FFD166"/>
+    <text x="60" y="680" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto" font-size="36" fill="#213547" font-weight="700">Bag &amp; Accessories</text>
+  </g>
+</svg>

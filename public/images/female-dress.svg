@@ -1,0 +1,10 @@
+<!-- Female clothing placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Female clothing">
+  <rect width="100%" height="100%" fill="#F8EDE3"/>
+  <g transform="translate(80,60)">
+    <path d="M160 120 C 220 20, 420 20, 480 120 L 480 560 C 420 620, 220 620, 160 560 Z" fill="#fff" stroke="#213547" stroke-width="10"/>
+    <circle cx="320" cy="220" r="36" fill="#FFD166"/>
+    <path d="M120 420 Q 320 520 520 420" stroke="#118AB2" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <text x="60" y="680" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto" font-size="36" fill="#213547" font-weight="700">Female — Dress</text>
+  </g>
+</svg>
