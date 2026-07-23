@@ -1,0 +1,28 @@
+{
+  "name": "greatness",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "stripe": "^11.20.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.2.2",
+    "@types/node": "^20.4.1",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@stripe/stripe-js": "^1.39.0"
+  }
+}
