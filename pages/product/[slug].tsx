@@ -3,6 +3,11 @@ import { products } from '../../data/products';
 import { getStripe } from '../../lib/stripe';
 import { useState } from 'react';
 
+function formatGYD(cents: number) {
+  const amount = cents / 100;
+  return new Intl.NumberFormat('en-GY', { style: 'currency', currency: 'GYD' }).format(amount);
+}
+
 export default function ProductPage() {
   const router = useRouter();
   const { slug } = router.query;
@@ -41,7 +46,7 @@ export default function ProductPage() {
         </div>
         <div>
           <h1 className="text-3xl font-bold">{product.name}</h1>
-          <p className="mt-4 text-lg">${(product.price / 100).toFixed(2)}</p>
+          <p className="mt-4 text-lg">{formatGYD(product.price)}</p>
           <p className="mt-6">{product.description}</p>
           <button
             onClick={handleBuyNow}
