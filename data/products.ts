@@ -77,7 +77,7 @@ export const products: Product[] = [
     name: 'Family Matching Set',
     price: 9900,
     currency: 'usd',
-    image: 'https://ae01.alicdn.com/kf/HTB1pS9sdBmWBuNkSndVq6AsApXay/Family-Clothing-Summer-Matching-Clothes-Mom-and-Daughter-Dress-Family-Matching-Outfits-Father-Son-Stripe-T.jpg',
+    image: '/images/family.jpg',
     description: 'Coordinated family summer outfits for parents and children.'
   }
 ];
